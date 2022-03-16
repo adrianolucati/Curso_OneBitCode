@@ -1,0 +1,65 @@
+body div input{
+    margin: 100 auto;
+    padding: 100 auto;
+}
+body {
+    background-color: darkgrey;
+}
+
+body div {
+    display: flex;
+    
+}
+
+.one {
+    background-color: orangered;
+    width: 300px;
+    height: 300px;
+    align-items: center;
+    margin: 0 auto;
+    border-radius: 50%;
+}
+
+.two {
+    background-color:goldenrod;
+    width: 90%;
+    height: 90%;
+    align-items: center;
+    margin: 0 auto;
+    border-radius: 50%;
+}
+
+.three {
+    background-color:darkblue;
+    width: 90%;
+    height: 90%;
+    align-items: center;
+    margin: 0 auto;
+    border-radius: 50%;
+}
+
+.odometro {
+    margin: 0 auto;
+    background-color: white;
+    width: 90%;
+    height: 90%;
+    border-radius: 50%;
+    align-items: center;
+    opacity: 0.7;
+}
+
+#velocidade {
+    font-size: 470%;
+    margin: 0 auto;
+    /* padding: 0 auto 0 auto; */
+    width: 96%;
+    /* height: 45%; */
+    border-radius: 35%;
+    background-color:rgb(243, 243, 243);
+    align-items: center;
+    letter-spacing: 20px;
+    text-decoration: none;
+    text-align: center;
+    margin-bottom: 0px;
+    /* opacity: 0.7; */
+}

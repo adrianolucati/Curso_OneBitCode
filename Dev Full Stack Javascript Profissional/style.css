@@ -1,0 +1,29 @@
+li{
+    color: green;;
+    border: 1px dashed red;
+}
+
+h1{
+    font-size:2cm;
+    color: rgb(139, 28, 243);
+    border-color: blue;
+    border-width: 2px;
+    border-style: dashed;
+}
+
+body{
+    background-color: darkgrey;
+    background-image: url('https://cdn.pixabay.com/photo/2013/07/12/18/36/earth-153567_960_720.png');
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+.moon{
+    color: yellow;
+    font-size: 30px;
+}
+
+#adrasteia{
+    color: brown;
+    font-size: 40px;
+}

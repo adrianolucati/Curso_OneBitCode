@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.3/css/bulma.min.css">
+    <script defer src="https://use.fontawesome.com/releases/v5.3.1/js/all.js"></script>
+    <link rel="stylesheet" href="style.css">
+    <title>Criptografar</title>
+    <script src="script.js"></script>
+</head>
+<body>
+    <div class="column is-6" id="formCripto">
+        <form action="criptografar">
+            Digite aqui sua mensagem secreta:
+        <div class="control is-loading">
+            <input class="input is-rounded" type="text" placeholder="Mensagem que deseja criptografar">
+        </div>
+        <br>
+            Crie uma senha para criptografar e descriptografar a mensagem:
+            <input class="input is-rounded" type="text" placeholder="Senha para codificação">
+        <br><br>
+        <label for="msgCripto"><p name="msgCripto" class="mensagemCodificada">exibe a mensagem criptografada</p></label>
+    </form>
+    </div>
+    <br><br>
+    <div class="column is-6" id="workplaceImage">
+        <img src="workplace.jpg" alt="Workplace" usemap="#workmap" width="400" height="379">
+
+        <map name="workmap">
+            <area shape="rect" coords="34,44,270,350" alt="Computer" href="mac.jpg" target="framename">
+            <area shape="rect" coords="290,172,333,250" alt="Phone" href="cellphone.jpg">
+            <area shape="circle" coords="337,300,44" alt="Cup of coffee" href="coffeehouse2.jpg">
+        </map>
+    </div>
+</body>
+</html>

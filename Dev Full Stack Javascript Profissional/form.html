@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">  
+    <title>Forms e Listas</title>
+</head>
+<body>
+    <h1>Encontre no google</h1>
+    <form action="https://www.google.com/search" method="get" target="_blank">
+        <label for="q">O que deseja pesquiasr? </label>
+        <input type="text" id="q" name="q" placeholder="Digite aqui..." required>
+        <input type="text" id="q" name="q" placeholder="Digite aqui...">
+        <input type="submit" value="Pesquisar">
+        
+    </form>
+    <h1>Cadastro</h1>
+    <form action="">
+        <input type="text" id="nome" name="nome" required min="2" max="15" placeholder="Primeiro nome">
+        <input type="text" id="nome" name="nome" required min="2" max="15" placeholder="Ultimo nome">
+        <input type="number" id="idade" name="idade" required min="18" max="55" placeholder="Idade">
+        <input type="email" id="email" name="email" required placeholder="Seu melhor E-mail">
+        <input list="convidados" placeholder="Convidado">
+        <input type="submit" value="Salvar">
+    </form>
+
+    <datalist id="convidados">
+        <option value="Adriano">Adriano</option>
+        <option value="Ana Paula">Ana Paula</option>
+        <option value="Cleusa">Cleusa</option>
+        <option value="Vitória">Vitória</option>
+        <option value="Cidinha">Cidinha</option>
+        <option value="Aroldo">Aroldo</option>
+        <option value="Leticia">Leticia</option>
+    </datalist>
+</body>
+</html>
