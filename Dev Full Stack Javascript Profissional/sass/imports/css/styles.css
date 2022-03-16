@@ -1,0 +1,17 @@
+.textBuy {
+  font-size: 22px;
+  font-family: Arial, Helvetica, sans-serif;
+  color: #ff4043;
+}
+
+button {
+  padding: 10px 15px;
+  border: 1px solid greenyellow;
+  background-color: #ff4;
+}
+button:hover {
+  background-color: greenyellow;
+  transition: 1s;
+}
+
+/*# sourceMappingURL=styles.css.map */
