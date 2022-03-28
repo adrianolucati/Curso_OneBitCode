@@ -1,0 +1,52 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: cadetblue;
+}
+
+#title-home {
+    font-size: 38px;
+    font-family: sans-serif;
+}
+
+
+@mixin text-style($color, $font-size, $font-family){
+    color: $color;
+    font-size: $font-size;
+    font-family: $font-family;
+}
+
+.container {
+    background-color:cornflowerblue;
+    width: 90%;
+    align-items: center;
+    text-align: center;
+    margin: 10px auto 10px auto;
+
+    .buttons {
+        display: flex;
+        width: auto;
+        margin: 0px auto;
+        align-items: center;
+        text-align: center;
+        background-color: $primary-color;
+        position: relative;
+        padding: 0px 50px;
+
+        .btn {
+            width: 115px;
+            padding: 10px;
+            border-radius: 20px;
+            cursor: pointer;
+            background-color: $secondary-color;
+            color: white;
+            // display: flex;
+            margin: 10px;
+
+            .btn-1 {
+                margin-left: 200px;
+                border: 3px white;
+            }
+        }
+    }
+}
